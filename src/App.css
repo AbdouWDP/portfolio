@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --poppins: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* background-color: hsl(0, 0, 98%); */
+  font-family: var(--poppins);
+  color: hsl(0, 0, 46%);
+  background-color: #fbfafb;
+}
+.hero-section {
+  height: calc(100vh - 64px);
+}
+.line {
+  height: 1px;
+}
+.navbar li a:hover {
+  color: #000;
+}
+.achievement {
+  width: 33%;
+  border: 1px solid #757575;
+}
+.skills,
+.services {
+  height: 80vh;
+}
+.scroll-dot {
+  transform: translateX(-50%);
+  animation: scroll 1s ease-in-out linear;
+}
+.languages,
+.libraries {
+  width: 30%;
+  aspect-ratio: 1/0.8;
+}
+.service-card {
+  aspect-ratio: 1/1.05;
+}
+.languages,
+.libraries,
+.service-card,
+.website-card {
+  border: 1px solid #757575;
+}
+
+.lang-level h3 {
+  line-height: 1rem;
+}
+
+.service-card:hover .vmbi,
+.demo-button:hover .dbi {
+  transform: translateX(4px);
+}
+
+.websites {
+  scrollbar-width: none;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+}
