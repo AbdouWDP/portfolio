@@ -49,7 +49,10 @@ body {
 .languages,
 .libraries,
 .service-card,
-.website-card {
+.website-card,
+.single-contact,
+.write-project-form form input,
+.write-project-form form textarea {
   border: 1px solid #757575;
 }
 
@@ -58,12 +61,30 @@ body {
 }
 
 .service-card:hover .vmbi,
-.demo-button:hover .dbi {
+.demo-button:hover .dbi,
+.single-contact:hover .wmi {
   transform: translateX(4px);
 }
 
 .websites {
   scrollbar-width: none;
+}
+
+.talk-to-me,
+.write-project-form {
+  width: 30%;
+}
+
+.single-contact {
+  height: 30%;
+}
+
+.inp p {
+  top: -10px;
+}
+
+.write-project-form form input::placeholder {
+  color: hsl(0, 0, 46%);
 }
 
 @keyframes scroll {
