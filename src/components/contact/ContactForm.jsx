@@ -1,5 +1,3 @@
-import { TbSend } from "react-icons/tb";
-
 function ContactForm() {
   return (
     <form className="text-text flex flex-col justify-center gap-8 h-full">

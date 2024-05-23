@@ -8,6 +8,8 @@ import { useRef } from "react";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
+import MobileNavbar from "./components/header/MobileNavbar";
 
 function App() {
   const scrollButton = useRef(null);
@@ -22,6 +24,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <MobileNavbar />
       <main>
         <HeroSection />
         <AboutMe />
@@ -29,6 +32,7 @@ function App() {
         <Services />
         <Portfolio />
         <Contact />
+        <Footer />
       </main>
       <div
         className="up-button fixed w-12 h-12 rounded-md bg-title bottom-10 right-10 text-xl hidden"
