@@ -98,6 +98,10 @@ body {
   display: none;
 }
 
+.mobile-navbar.active {
+  height: 25%;
+}
+
 @keyframes scroll {
   0% {
     opacity: 1;

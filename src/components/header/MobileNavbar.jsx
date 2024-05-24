@@ -49,8 +49,8 @@ function MobileNavbar() {
 
   return (
     <header
-      className={`mobile-navbar w-screen  ${
-        openNav ? "h-1/4 bg-white" : "h-14"
+      className={`mobile-navbar w-screen duration-300 ${
+        openNav ? "active bg-white" : "h-14"
       } fixed bottom-0 z-50 ${scroll && "bg-white shadow-md"} `}
       style={{ borderRadius: openNav ? "16px 16px 0 0" : 0 }}
     >
