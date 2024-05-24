@@ -5,7 +5,7 @@ function Portfolio() {
   return (
     <>
       <section className="portfolio w-screen h-screen" id="portfolio">
-        <article className="w-4/5 h-full m-auto">
+        <article className="w-4/5 h-full m-auto max-md:w-11/12">
           <div className="h-1/5">
             <div className="text-4xl text-title font-bold text-center">
               <h1>Portfolio</h1>
@@ -14,7 +14,7 @@ function Portfolio() {
               <p>Most recent work</p>
             </div>
           </div>
-          <div className="websites w-4/5 h-3/4 overflow-scroll m-auto flex flex-wrap justify-center gap-10">
+          <div className="websites w-4/5 h-3/4 overflow-scroll m-auto flex flex-wrap justify-center gap-10 max-md:w-full max-md:gap-4">
             {websites.map((website) => {
               return <WebsiteCard website={website} />;
             })}

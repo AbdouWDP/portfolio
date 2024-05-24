@@ -18,14 +18,14 @@ function AboutMe() {
             <p>My introduction</p>
           </div>
         </div>
-        <div className="w-full h-3/4 flex justify-between items-center">
-          <div className="about-me-image w-2/5 h-4/5 m-auto">
+        <div className="w-full h-3/4 flex justify-between items-center max-md:flex-col max-lg:my-8">
+          <div className="about-me-image w-2/5 h-4/5 m-auto max-md:w-full max-md:my-8">
             <img src={theme} alt="" className="w-full h-full object-contain" />
           </div>
-          <div className="w-1/2 h-4/5">
-            <div className="w-full h-full flex flex-col justify-between">
+          <div className="w-1/2 h-4/5 max-md:w-full">
+            <div className="w-full h-full flex flex-col justify-between max-lg:gap-4">
               <Achivements />
-              <div className="w-4/5">
+              <div className="w-4/5 max-lg:w-full">
                 <p className="text-text font-semibold">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
                   quod, ab odit sit ipsa nemo culpa eligendi enim eos rerum est
@@ -33,7 +33,7 @@ function AboutMe() {
                   aliquam.
                 </p>
               </div>
-              <div className="check-portfolio-button w-2/5 h-16 text-lg font-semibold">
+              <div className="check-portfolio-button w-2/5 h-16 text-lg font-semibold max-lg:w-3/5 max-sm:w-4/5">
                 <button className="w-full h-full text-white flex items-center justify-center gap-2 bg-title hover:bg-title-dark rounded-xl">
                   <span>Check Portfolio</span>
                   <span className="text-xl">

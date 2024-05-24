@@ -35,7 +35,7 @@ function App() {
         <Footer />
       </main>
       <div
-        className="up-button fixed w-12 h-12 rounded-md bg-title bottom-10 right-10 text-xl hidden"
+        className="up-button fixed w-12 aspect-square rounded-md bg-title bottom-10 right-10 text-xl hidden max-md:bottom-20 max-md:right-5 max-md:w-10"
         ref={scrollButton}
       >
         <a

@@ -10,7 +10,7 @@ const Language = ({ lang, level }) => {
         </span>
       </div>
       <div className="lang-level capitalize">
-        <div className="text-title text-lg font-semibold cursor-default hover:underline">
+        <div className="text-title text-xl max-lg:text-sm font-semibold cursor-default hover:underline">
           <h3> {lang} </h3>
         </div>
         <div className="text-text text-sm">
@@ -27,7 +27,7 @@ function Skills() {
       className="skills w-screen flex justify-center items-center"
       id="skills"
     >
-      <article className="w-4/5 h-full">
+      <article className="w-4/5 h-full max-sm:w-11/12">
         <div className="h-1/4">
           <div className="text-4xl text-title font-bold text-center">
             <h1>Skills</h1>
@@ -36,9 +36,9 @@ function Skills() {
             <p>My technical level</p>
           </div>
         </div>
-        <div className="all-skills w-full h-1/2 flex justify-center items-center gap-8">
-          <div className="languages bg-white rounded-2xl flex justify-center items-center">
-            <div className="w-4/5 h-4/5 flex justify-center items-center flex-col gap-6">
+        <div className="all-skills w-full h-1/2 flex justify-center items-center gap-8 max-md:flex-col max-md:mt-8">
+          <div className="languages bg-white rounded-2xl flex justify-center items-center max-sm:w-4/5 max-md:w-3/5 max-xl:w-1/2">
+            <div className="w-4/5 h-4/5 flex justify-center items-center flex-col gap-6 max-sm:py-4 max-sm:w-11/12">
               <div className="text-xl text-title-bold font-semibold text-center">
                 <h2>Your needs</h2>
               </div>
@@ -52,8 +52,8 @@ function Skills() {
               </div>
             </div>
           </div>
-          <div className="libraries bg-white rounded-2xl flex justify-center items-center">
-            <div className="w-4/5 h-4/5 flex justify-center items-center flex-col gap-6">
+          <div className="libraries bg-white rounded-2xl flex justify-center items-center max-sm:w-4/5 max-md:w-3/5 max-xl:w-1/2">
+            <div className="w-4/5 h-4/5 flex justify-center items-center flex-col gap-6 max-sm:py-4 max-sm:w-11/12">
               <div className="text-xl text-title-bold font-semibold text-center">
                 <h2>My additions</h2>
               </div>

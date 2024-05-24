@@ -5,13 +5,13 @@ import { MdOutlineDraw } from "react-icons/md";
 
 const ServiceCard = ({ offer, icon }) => {
   return (
-    <div className="service-card bg-white rounded-2xl w-1/4 flex justify-center items-center cursor-pointer">
+    <div className="service-card bg-white rounded-2xl w-1/4 max-sm:w-3/5 max-md:w-1/2 max-lg:w-2/5 flex justify-center items-center cursor-pointer">
       <div className="w-4/5 h-4/5 flex items-end">
-        <div className="w-3/5 h-3/4 flex flex-col justify-between">
+        <div className="w-3/5 h-3/4 flex flex-col justify-between max-md:w-full">
           <div className="service-card-icon text-5xl text-title">
             <span>{icon}</span>
           </div>
-          <div className="text-title text-2xl font-semibold capitalize">
+          <div className="text-title text-2xl font-semibold capitalize max-sm:text-lg">
             <h2> {offer} </h2>
           </div>
           <div className="view-more-button">
@@ -40,7 +40,7 @@ function Services() {
             <p>What i offer</p>
           </div>
         </div>
-        <div className="my-services w-full h-3/5 flex justify-center items-center gap-8">
+        <div className="my-services w-full h-3/5 flex justify-center items-center gap-8 max-md:gap-4 flex-wrap max-lg:mt-8">
           <ServiceCard offer="web developer" icon={<MdOutlineWeb />} />
           <ServiceCard offer="ui/ux designer" icon={<MdOutlineDraw />} />
           <ServiceCard offer="web designer" icon={<IoCodeSlash />} />
