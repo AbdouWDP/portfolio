@@ -27,10 +27,9 @@ function AboutMe() {
               <Achivements />
               <div className="w-4/5 max-lg:w-full">
                 <p className="text-text font-semibold">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
-                  quod, ab odit sit ipsa nemo culpa eligendi enim eos rerum est
-                  laboriosam cumque vel iure architecto maxime in perspiciatis
-                  aliquam.
+                  Frontend developer, I create web pages with UI / UX user
+                  interface, I have years of experience and many clients are
+                  happy with the projects carried out.
                 </p>
               </div>
               <div className="check-portfolio-button w-2/5 h-16 text-lg font-semibold max-lg:w-3/5 max-sm:w-4/5">

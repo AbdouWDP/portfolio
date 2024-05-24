@@ -15,8 +15,8 @@ function Intro() {
         </div>
         <div className="text-text text">
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Dignissimos, suscipit.
+            I am web developer with +3 years of experience, and i'm very
+            passionate and dedicated to my work.
           </p>
         </div>
       </div>
